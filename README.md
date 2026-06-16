@@ -11,9 +11,9 @@ The machine running qBittorrent must be registered on MAM to obtain a valid cook
 **Provide a session cookie**
 Place the cookie somewhere qBittorrent have access.
 
-**Modify the cookie path in `myanonamouse.py`**
+**Modify the cookie path in [`myanonamouse.py`](myanonamouse.py)**
 
-**Install in qBittorrent**: Search tab → Search engines… → Install a new one → `myanonamouse.py`.
+**Install in qBittorrent**: Search tab → Search engines… → Install a new one → [`myanonamouse.py`](myanonamouse.py).
 
 ## Usage
 
