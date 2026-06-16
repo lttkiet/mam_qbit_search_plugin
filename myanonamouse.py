@@ -18,7 +18,7 @@ from helpers import download_file
 # --- USER CONFIGURATION ---
 # Path to your MAM session cookie file (Netscape format).
 # Obtain it by creating a session on MAM.
-COOKIE_FILE = os.path.expanduser('~/mam.cookies')
+COOKIE_FILE = os.path.expanduser('~/mam.cookies') if os.path.exists(os.path.expanduser('~/mam.cookies')) else os.path.expanduser('/config/mam.cookies')
 
 # Custom tor[] query parameters applied to every search.
 # Set a value to '' or [] to omit it.  See the MAM API docs for all options.
