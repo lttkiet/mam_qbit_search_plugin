@@ -35,3 +35,5 @@ Any `tor[]` parameter can be overridden in the search box using `key:value` synt
 | `endDate:2024-12-31` | Until this date (exclusive) |
 
 List values use commas (`cat:13,108`). Parameters are stripped from the search text automatically.
+
+For details about parameter, visit the API document page.
